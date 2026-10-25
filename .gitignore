@@ -1,0 +1,37 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Keystores and signing files
+*.jks
+*.keystore
+*.p12
+
+# Local configuration file (contains local paths and API keys)
+local.properties
+local.properties.bak
+
+# Log files
+*.log
+
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+.gradle/
+.kotlin/
+build/
+app/build/
+
+# Native build artifacts
+.externalNativeBuild
+.cxx/
+cmake-build-*/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Profiler & memory dumps
+captures/
+*.hprof

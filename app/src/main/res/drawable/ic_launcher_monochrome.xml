@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Segment 1 (Emerald): 60% right/bottom arc with rounded caps -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5.5"
+        android:strokeLineCap="round"
+        android:pathData="M 60.49,34.03 A 21,21 0 1,1 41.07,70.55" />
+
+    <!-- Segment 2 (Coral): 22% left arc with rounded caps -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5.5"
+        android:strokeLineCap="round"
+        android:pathData="M 35.81,64.50 A 21,21 0 0,1 36.59,42.26" />
+
+    <!-- Segment 3 (Amber): 18% top-left arc with rounded caps -->
+    <path
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="5.5"
+        android:strokeLineCap="round"
+        android:pathData="M 41.66,37.01 A 21,21 0 0,1 53.27,33.01" />
+
+    <!-- Center Shield Silhouette with Cutout Checkmark inside -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M 54,42.5 Q 49,43.5 44.5,45.0 L 44.5,53.5 Q 44.5,60.5 54,65.5 Q 63.5,60.5 63.5,53.5 L 63.5,45.0 Q 59,43.5 54,42.5 Z M 47.5,53.5 L 52.8,59.0 L 60.5,48.5 L 59.0,47.0 L 52.8,55.5 L 49.0,51.8 Z" />
+
+</vector>

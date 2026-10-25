@@ -1,0 +1,11 @@
+## SpendLog Local Configuration Example
+## Rename or copy this file to 'local.properties' and fill in your values.
+## DO NOT commit 'local.properties' to git.
+
+# Location of the Android SDK
+# sdk.dir=/path/to/Android/Sdk
+
+# Optional: Google Gemini API Key for Tier-3 fallback merchant categorization.
+# If left blank, SpendLog operates 100% on-device using its instant Regex & Merchant Memory engines.
+# Get a free key at: https://ai.google.dev
+gemini.api.key=
